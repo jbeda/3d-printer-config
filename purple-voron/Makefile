@@ -18,3 +18,7 @@ pull_resonance_data:
 	mkdir -p resonances/
 	scp -rO 'pi@voron-purple.local:/tmp/resonances*.csv' resonances/
 	scp -rO 'pi@voron-purple.local:/tmp/shaper_calibrate_?.png' resonances/
+
+pushks:
+	scp -rO KlipperScreen.conf pi@voron-purple.local:printer_data/config
+	curl -X POST http://voron-purple.local/machine/services/restart?service=KlipperScreen
