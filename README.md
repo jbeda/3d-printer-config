@@ -43,6 +43,8 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_37001A00105131
   with [Display
   Mount](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Tircown/Display_mount_5inch)
 - [Tap](https://github.com/VoronDesign/Voron-Tap)
+- [Chaoticlab CNC Tap](https://www.chaoticlab.com/products/cnc-voron-tap)
+  - [X Endstop Trigger](https://www.printables.com/model/703550-chaotic-labs-cnc-tap-v2-x-endstop-trigger)
 - [Galileo 2](https://github.com/JaredC01/Galileo2)
 - [GE5C Z
   joint](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C)
@@ -61,3 +63,7 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_37001A00105131
 - [Refill
   Please](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/JD/RefillPlease)
   filament sensor
+- [BTT Smart Filament Sensor
+  v2](https://biqu.equipment/products/btt-sfs-v2-0-smart-filament-sensor)
+  - [BTT SFS v2 backpanel
+    mount](https://www.printables.com/model/566269-btt-sfs-smart-filament-sensor-v20-voron-backpanel-)
