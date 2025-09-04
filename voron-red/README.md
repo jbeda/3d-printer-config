@@ -15,7 +15,8 @@ sudo service klipper start
 LDO Leviathan Setup docs: https://ldomotion.com/p/guide/VORON-Leviathan-V12
 CAN on bullseye:
 Birds' Nest UUID: c1058a179bbc
-Toolhead 1 (EBB36) CANbus UUID: 519ae32037fe
+Toolhead 0 (EBB36) CANbus UUID: 829b3f4becec
+Toolhead 1 (EBB36) CANbus UUID: e3ea4f1ccf0f
 
 ## Klipper Update
 
@@ -43,7 +44,8 @@ make menuconfig KCONFIG_CONFIG=config.toolhead
 make KCONFIG_CONFIG=config.toolhead
 
 # Toolhead 1
-~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u 519ae32037fe
+~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u 829b3f4becec
+~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u e3ea4f1ccf0f
 
 sudo service klipper start
 ```
@@ -89,6 +91,10 @@ sudo service klipper start
   - [Orbiter V2 BTT EBB36
     carrier](https://github.com/DraftShift/StealthChanger/blob/main/UserMods/onsimon/README.md)
     toolhead board carrier
+  - [Custom EBB36 G2SA PG7
+    mount](https://cad.onshape.com/documents/bd81efa30bd02efa40c9785e/w/b6631380ec4d6ba2076ef068/e/de1d270a613df399ea0e3da1)
+    somewhat inspired by [this model](https://www.printables.com/model/791804-ebb36-mount-for-orbiter-2-and-pg7-gland-optimized/related)
+  - Magnetic Dock version of Dragon Burner on [DraftShift Discord](https://discord.com/channels/1226846451028725821/1320029517376655462/1347878802751230005)
 - [FannyPack](https://github.com/DraftShift/CableManagement/tree/main/FannyPack)
   for cable management with
   [N3MI-DG](https://github.com/DraftShift/CableManagement/tree/main/UserMods/N3MI-DG/Umbilical_plates_V2)
