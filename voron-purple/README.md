@@ -54,7 +54,14 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_37001A00105131
 - [GE5C Z
   joint](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/hartk1213/Voron2.4_GE5C)
 - CAN bus with BTT SB2209 (RPI 2040 version) and BTT U2C v2.1 routed through
-  cable chains. Harness from https://kb-3d.com/.
+  cable chains.
+  - Harness:
+    - Cable: [Igus CF9.05.04](https://www.igus.com/product/CF9?artnr=CF9.05.04)
+    - White: +24V w/ 5A blade fuse
+    - Brown: +0V
+    - Yellow: CAN High
+    - Green: CAN Low
+    - Toolhead connector: XT30+2
 - Chamber Thermistor. [Generic
   3950](https://www.amazon.com/gp/product/B07D9LSKWK/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
   [mounted to back of
