@@ -37,16 +37,13 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_37001A00105131
 - [LED bar
   clips](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/eddie/LED_Bar_Clip)
 - [Beefy Front Idlers](https://github.com/clee/VoronBFI)
-- [5" touch
-  screen](https://www.fabreeko.com/products/raspberry-pi-5-inch-touch-screen-ips-800x480-by-fysetc)
-  with [Display
-  Mount](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Tircown/Display_mount_5inch)
-  - Mount: [45
-    Degree](https://www.printables.com/model/869887-voron-24-btt-pitft50-45-degree-mount-clicky-clack)
-    and [display
-    holder](https://www.printables.com/model/311396-tft-5-holder-for-voron-24-btt-20-pitft50/files).
-    These aren't exactly the right thing for this screen but it seems to work
-    just fine.
+- [BTT HDMI5 v1.2
+  screen](https://biqu.equipment/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0?variant=39984058105954).
+  - [Mount for BTT HDMI5
+    screen](https://www.printables.com/model/1066444-btt-hdmi5-mount-for-the-clicky-clack-fridge-door-w/files)
+    with [this
+    part](https://www.printables.com/model/926845-btt-hdmi5-v12-display-mount-voron)
+    for v1.2.
 - [Tap](https://github.com/VoronDesign/Voron-Tap)
 - [Chaoticlab CNC Tap](https://www.chaoticlab.com/products/cnc-voron-tap)
   - [X Endstop Trigger](https://www.printables.com/model/703550-chaotic-labs-cnc-tap-v2-x-endstop-trigger)
