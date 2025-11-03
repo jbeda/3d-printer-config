@@ -16,7 +16,7 @@ LDO Leviathan Setup docs: https://ldomotion.com/p/guide/VORON-Leviathan-V12
 CAN on bullseye:
 Birds' Nest UUID: c1058a179bbc
 Toolhead 0 (EBB36) CANbus UUID: 829b3f4becec
-Toolhead 1 (EBB36) CANbus UUID: e3ea4f1ccf0f
+Toolhead 1 (EBB36) CANbus UUID: e31d84775fe2
 
 ## Klipper Update
 
@@ -43,9 +43,10 @@ make clean KCONFIG_CONFIG=config.toolhead
 make menuconfig KCONFIG_CONFIG=config.toolhead
 make KCONFIG_CONFIG=config.toolhead
 
-# Toolhead 1
+# Toolhead 0
 ~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u 829b3f4becec
-~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u e3ea4f1ccf0f
+# Toolhead 1
+~/katapult-env/bin/python3 ~/katapult/scripts/flashtool.py -i can0 -f out/klipper.bin -u e31d84775fe2
 
 sudo service klipper start
 ```

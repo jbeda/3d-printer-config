@@ -31,6 +31,9 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_37001A00105131
 
 - LDO Voron v2.4 kit, rev B
 - Revo hotend with 60w heater and high flow nozzles
+- RPi power source
+  - [Buck Converter](https://www.amazon.com/dp/B0D2TS7CBN)
+  - [Mounting plate](https://cad.onshape.com/documents/f1751ca53dc117cb9ac30089/w/5469bf98ad5bcbd309458fe6/e/3a7abde3a8b91108b94fd313)
 - [Purge Bucket and
   brush](https://github.com/VoronDesign/VoronUsers/tree/main/orphaned_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber)
 - [Nevermore v5 Duo](https://github.com/nevermore3d/Nevermore_Micro)
